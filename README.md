@@ -1,4 +1,5 @@
 # coursera-test
+<!doctype html>
 <html>
 <head>
   <title>Harrys First Website</title>
