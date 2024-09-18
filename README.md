@@ -1,22 +1,88 @@
 # coursera-test
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Harrys First Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fishy Business</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightblue;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    #fish-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .fish-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+    }
+
+    #fish-facts {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1 style="color:green; font-size: 60px; text-align: center;">
-  Harrys First Website</h1>
-  <p style="margin: 0 100px 0 100px; font-size: 1.5em;">Hello. This is Harrys website. This is an experimental process of trying to create my first website with a nice design template.</p>
-  <p>This is some extra text to act as a different line on the webpage</p>
+  <header>
+    <h1>Fishy Business</h1>
+  </header>
+  <main>
+    <h2>Fish Gallery</h2>
+    <section id="fish-gallery">
+      </section>
+    <section id="fish-facts">
+      <h2>Fun Fish Facts</h2>
+      <ul>
+        <li>Did you know that goldfish have a memory span of 3 seconds?</li>
+        <li>Sharks can detect one drop of blood in a million gallons of water.</li>
+      </ul>
+    </section>
+  </main>
   <footer>
-    <hr>
-    <p style="text-align: center;"
-       onclick="alert('EMAILING US IS USELESS');">
-       Tech Support: yeah.right@server-is-down.com
-    </p>
+    <p>&copy; 2024 Fishy Business</p>
   </footer>
- </body>
+  <script>
+    const fishGallery = document.getElementById('fish-gallery');
+
+    // Array of fish image URLs
+    const fishImages = [
+      'image1.jpg',
+      'image2.jpg',
+      'image3.jpg'
+    ];
+
+    // Function to create fish image elements
+    function createFishImage(url) {
+      const img = document.createElement('img');
+      img.classList.add('fish-image');
+      img.src = url;
+      return img;
+    }
+
+    // Add fish images to the gallery
+    fishImages.forEach(url => {
+      fishGallery.appendChild(createFishImage(url));
+    });
+  </script>
+</body>
 </html>
 
 
