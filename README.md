@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fishy Business</title>
+  <title>Harrys First Website</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -42,14 +42,14 @@
 </head>
 <body>
   <header>
-    <h1>Fishy Business</h1>
+    <h1>Mason is a Great Dog</h1>
   </header>
   <main>
-    <h2>Fish Gallery</h2>
-    <section id="fish-gallery">
+    <h2>London is Blue</h2>
+    <section id="great dog">
       </section>
-    <section id="fish-facts">
-      <h2>Fun Fish Facts</h2>
+    <section id="blue london">
+      <h2>Fun facts</h2>
       <ul>
         <li>Did you know that goldfish have a memory span of 3 seconds?</li>
         <li>Sharks can detect one drop of blood in a million gallons of water.</li>
