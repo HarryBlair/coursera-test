@@ -23,6 +23,7 @@
     }
 
     #mason {
+      align: center;
       box-sizing: border-box;
       margin: 40px;
       background-color: yellow;
