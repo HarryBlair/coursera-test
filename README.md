@@ -22,17 +22,18 @@
       padding: 20px;
     }
 
-    #mason {
+   * {
+     box-sizing: border-box;
+     margin: 40px;
+     border: 5px solid black;
+     padding: 10px;
+     }
+
+    h1 {
       align: center;
-      box-sizing: border-box;
-      margin: 40px;
-      background-color: yellow;
-      border: 5px solid black;
-      padding: 10px;
-      hover: red;
+      background-color: #A52A2A;
     }
     
-
     #fish-gallery {
       display: flex;
       flex-wrap: wrap;
