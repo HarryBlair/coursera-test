@@ -22,6 +22,16 @@
       padding: 20px;
     }
 
+    #mason {
+      box-sizing: border-box;
+      margin: 40px;
+      background-color: yellow;
+      border: 5px solid black;
+      padding: 10px;
+      hover: red;
+    }
+    
+
     #fish-gallery {
       display: flex;
       flex-wrap: wrap;
@@ -41,7 +51,7 @@
   </style>
 </head>
 <body>
-  <header>
+  <header #mason>
     <h1>Mason is a Great Dog</h1>
   </header>
   <main>
